@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>URL Shortener</h1>
+    <form action="/shorten" method="POST">
+      <input type="text" name="url" placeholder="Enter URL" required>
+      <button type="submit">Shorten URL</button>
+    </form>
+    <footer>
+      <p>Powered by Manoj Shrestha</p>
+    </footer>
+  </div>
+</body>
+</html>
